@@ -40,6 +40,37 @@ void main (){
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        drawer: Drawer(
+          backgroundColor: Color(0Xff191C24),
+          child: ListView(
+            padding: EdgeInsets.zero,
+            children: [
+              Padding(padding: EdgeInsets.only(left: 16,top: 40,bottom: 8),
+                child: Text("Phone",style: TextStyle(fontSize: 26,fontWeight: FontWeight.bold,color: Colors.white),),
+                
+
+              ),
+              ListTile(
+                leading: Icon(Icons.people_outline,color: Colors.white,),
+                title: Text('Contacts',style: TextStyle(color: Colors.white,fontSize: 16),),
+              ),
+              ListTile(
+                leading: Icon(Icons.settings),
+                title: Text('Settings',style: TextStyle(color: Colors.white,fontSize: 16),),
+              ),
+              ListTile(
+                leading: Icon(Icons.history_toggle_off,color: Colors.white,),
+                title: Text('Clear call history',style: TextStyle(color: Colors.white,fontSize: 16),),
+              ),
+              ListTile(
+                leading: Icon(Icons.help_outline,color: Colors.white,),
+                title: Text('Help & feedback',style: TextStyle(color: Colors.white,fontSize: 16),),
+              )
+            ],
+            
+
+          ),
+        ),
           appBar: AppBar(
             backgroundColor: Colors.black,
             title: Container(
@@ -52,7 +83,7 @@ void main (){
                 decoration: InputDecoration(
                   hintText: "Search contacts",
                   hintStyle: TextStyle(color: Colors.white70),
-                  prefixIcon: Icon(Icons.menu, color: Colors.white),
+
                   suffixIcon: Icon(Icons.mic, color: Colors.white),
                   border: InputBorder.none,
                 ),
