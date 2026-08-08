@@ -1,3 +1,4 @@
+import 'package:contact/Contact/settings.dart';
 import 'package:flutter/material.dart';
 class ContactScreen extends StatefulWidget {
   const ContactScreen({super.key});
@@ -62,7 +63,9 @@ class _ContactScreenState extends State<ContactScreen> {
             ),
             ListTile(
               leading: InkWell(
-                onTap: (){},
+                onTap: (){
+                  Navigator.push(context,MaterialPageRoute(builder: (context,)=>SettingsScreen()));
+                },
                   child: Icon(Icons.settings)),
               title: Text('Settings',style: TextStyle(color: Colors.white,fontSize: 16),),
             ),
