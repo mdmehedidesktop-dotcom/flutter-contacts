@@ -65,6 +65,9 @@ class _ContactScreenState extends State<ContactScreen> {
               leading: InkWell(
                 onTap: (){
                   Navigator.push(context,MaterialPageRoute(builder: (context,)=>SettingsScreen()));
+
+
+
                 },
                   child: Icon(Icons.settings)),
               title: Text('Settings',style: TextStyle(color: Colors.white,fontSize: 16),),

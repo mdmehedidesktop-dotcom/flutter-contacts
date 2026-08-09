@@ -2,6 +2,8 @@ import 'package:contact/Contact/contact.dart';
 import 'package:contact/Contact/settings.dart';
 import 'package:flutter/material.dart';
 
+import 'Help/help_page.dart';
+
 void main(){
   runApp(Contact());
 }
@@ -12,7 +14,8 @@ class Contact extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ContactScreen  (),
+      home:  HomeScreen(),
     );
   }
 }
+
