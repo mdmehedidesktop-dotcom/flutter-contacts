@@ -29,7 +29,15 @@ class _HomeScreenState extends State<HomeScreen> {
                 SizedBox(width: 7,),
                 Text("Your account is disabled",style: TextStyle(color: Colors.white),)
               ],
-            )
+            ),
+            SizedBox(height: 20,),
+            Row(
+              children: [
+                Icon(Icons.description,color: Colors.white,),
+                SizedBox(width: 7,),
+                Text("User caller ID and spam protection",style: TextStyle(color: Colors.white),)
+              ],
+            ),
 
           ],
         ),
