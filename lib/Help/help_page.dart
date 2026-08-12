@@ -19,7 +19,17 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
+            Text("Popular help resources",style: TextStyle(fontSize: 14,color: Colors.white),),
+            SizedBox(height: 20,),
+            Row(
+              children: [
+                Icon(Icons.description,color: Colors.white,),
+                SizedBox(width: 7,),
+                Text("Your account is disabled",style: TextStyle(color: Colors.white),)
+              ],
+            )
 
           ],
         ),
