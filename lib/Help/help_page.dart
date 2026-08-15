@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: Color(0Xff000000),
         title: Text("Help",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white),),actions: [
-        Icon(Icons.more_vert)
+        Icon(Icons.more_vert,color: Colors.white,)
       ],),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
@@ -62,6 +62,22 @@ class _HomeScreenState extends State<HomeScreen> {
                 Text("Change call settings",style: TextStyle(color: Colors.white),)
               ],
             ),
+            SizedBox(height: 20,),
+            Container(
+              height: 50,
+              width: 320,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(30),
+                color: Color(0Xff2E261E)
+              ),
+              child: Row(
+                children: [
+                  Icon(Icons.search,color: Colors.white,),
+                  SizedBox(width: 10,),
+                  Text("Search help",style: TextStyle(color: Colors.white),)
+                ],
+              ),
+            )
 
           ],
         ),
