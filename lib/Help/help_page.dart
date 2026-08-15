@@ -77,7 +77,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   Text("Search help",style: TextStyle(color: Colors.white),)
                 ],
               ),
-            )
+            ),
+            SizedBox(height: 20,),
+            Divider(color: Color(0Xff453C3C,),)
 
           ],
         ),
