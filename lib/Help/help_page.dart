@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 Icon(Icons.description,color: Colors.white,),
                 SizedBox(width: 7,),
-                Text("Your account is disabled",style: TextStyle(color: Colors.white),)
+                Text("Use the phone app to record calls",style: TextStyle(color: Colors.white),)
               ],
             ),
             SizedBox(height: 20,),
@@ -35,7 +35,15 @@ class _HomeScreenState extends State<HomeScreen> {
               children: [
                 Icon(Icons.description,color: Colors.white,),
                 SizedBox(width: 7,),
-                Text("User caller ID and spam protection",style: TextStyle(color: Colors.white),)
+                Text("Create a calling card",style: TextStyle(color: Colors.white),)
+              ],
+            ),
+            SizedBox(height: 20,),
+            Row(
+              children: [
+                Icon(Icons.description,color: Colors.white,),
+                SizedBox(width: 7,),
+                Text("Use caller ID and spam protection",style: TextStyle(color: Colors.white),)
               ],
             ),
 
