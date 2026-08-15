@@ -46,6 +46,22 @@ class _HomeScreenState extends State<HomeScreen> {
                 Text("Use caller ID and spam protection",style: TextStyle(color: Colors.white),)
               ],
             ),
+            SizedBox(height: 20,),
+            Row(
+              children: [
+                Icon(Icons.description,color: Colors.white,),
+                SizedBox(width: 7,),
+                Text("How to check your voicemail",style: TextStyle(color: Colors.white),)
+              ],
+            ),
+            SizedBox(height: 20,),
+            Row(
+              children: [
+                Icon(Icons.description,color: Colors.white,),
+                SizedBox(width: 7,),
+                Text("Change call settings",style: TextStyle(color: Colors.white),)
+              ],
+            ),
 
           ],
         ),
