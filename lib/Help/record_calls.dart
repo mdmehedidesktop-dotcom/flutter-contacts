@@ -22,8 +22,16 @@ class _RecordCallsState extends State<RecordCalls> {
       ),
       body: Padding(padding: EdgeInsets.all(13),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text("Use the Phone app to\nrecord calls",style: TextStyle(fontSize: 25,color: Colors.white),)
+            Text("Use the Phone app to\nrecord calls",style: TextStyle(fontSize: 25,color: Colors.white),),
+            Text("You can use your phone app to :",style: TextStyle(fontSize: 14,color: Colors.white),),
+            SizedBox(height: 20,),
+            Text(". Always record calls from unknow\nnumber.",style: TextStyle(fontSize: 14,color: Colors.white),),
+            SizedBox(height: 12,),
+            Text(". Always record calls from selected\ncontacts.",style: TextStyle(fontSize: 14,color: Colors.white),),
+            SizedBox(height: 12,),
+            Text(". Record an individual call.",style: TextStyle(fontSize: 14,color: Colors.white),)
           ],
         ),
 
