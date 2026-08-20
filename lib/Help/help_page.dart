@@ -79,7 +79,12 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ),
             SizedBox(height: 20,),
-            Divider(color: Color(0Xff453C3C,),)
+            Divider(color: Color(0Xff453C3C,),),
+            Row(children: [
+              Icon(Icons.message,color: Colors.white,),
+              SizedBox(width: 5,),
+              Text("Send Feedback",style: TextStyle(color: Colors.white),)
+            ],)
 
           ],
         ),
