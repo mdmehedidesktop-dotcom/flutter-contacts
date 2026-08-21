@@ -25,15 +25,17 @@ class _RecordCallsState extends State<RecordCalls> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text("Use the Phone app to\nrecord calls",style: TextStyle(fontSize: 25,color: Colors.white),),
-            Text("You can use your phone app to :",style: TextStyle(fontSize: 14,color: Colors.white),),
+            Text("You can use your phone app to :",style: TextStyle(fontSize: 20,color: Colors.white),),
             SizedBox(height: 20,),
-            Text(". Always record calls from unknow\nnumber.",style: TextStyle(fontSize: 14,color: Colors.white),),
+            Text(". Always record calls from unknow\nnumber.",style: TextStyle(fontSize: 20,color: Colors.white),),
             SizedBox(height: 12,),
-            Text(". Always record calls from selected\ncontacts.",style: TextStyle(fontSize: 14,color: Colors.white),),
+            Text(". Always record calls from selected\ncontacts.",style: TextStyle(fontSize: 2,color: Colors.white),),
             SizedBox(height: 12,),
-            Text(". Record an individual call.",style: TextStyle(fontSize: 14,color: Colors.white),),
+            Text(". Record an individual call.",style: TextStyle(fontSize:20,color: Colors.white),),
             SizedBox(height: 20,),
             Text("Tips :",style: TextStyle(fontSize: 20,color: Colors.white),),
+            SizedBox(height: 10,),
+            Text(". You can play back saved recordings and also modify how to keep recorded calls.",style: TextStyle(fontSize: 16,color: Colors.white),)
           ],
         ),
 
