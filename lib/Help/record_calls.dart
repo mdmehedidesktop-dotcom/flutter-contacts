@@ -31,7 +31,9 @@ class _RecordCallsState extends State<RecordCalls> {
             SizedBox(height: 12,),
             Text(". Always record calls from selected\ncontacts.",style: TextStyle(fontSize: 14,color: Colors.white),),
             SizedBox(height: 12,),
-            Text(". Record an individual call.",style: TextStyle(fontSize: 14,color: Colors.white),)
+            Text(". Record an individual call.",style: TextStyle(fontSize: 14,color: Colors.white),),
+            SizedBox(height: 20,),
+            Text("Tips :",style: TextStyle(fontSize: 20,color: Colors.white),),
           ],
         ),
 
