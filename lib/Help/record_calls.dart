@@ -35,7 +35,9 @@ class _RecordCallsState extends State<RecordCalls> {
             SizedBox(height: 20,),
             Text("Tips :",style: TextStyle(fontSize: 20,color: Colors.white),),
             SizedBox(height: 10,),
-            Text(". You can play back saved recordings and also modify how to keep recorded calls.",style: TextStyle(fontSize: 16,color: Colors.white),)
+            Text(". You can play back saved recordings and also modify how to keep recorded calls.",style: TextStyle(fontSize: 16,color: Colors.white),),
+            SizedBox(height: 10,),
+            Text(". You can see when call recording is active with the call recording indicator.",style: TextStyle(fontSize: 16,color: Colors.white),),
           ],
         ),
 
