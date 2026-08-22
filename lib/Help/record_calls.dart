@@ -43,6 +43,7 @@ class _RecordCallsState extends State<RecordCalls> {
               Text("Important:",style: TextStyle(fontSize: 20,color: Colors.white),),
               Text(" Only certain device and",style: TextStyle(fontSize: 16,color: Colors.white),),
             ],),
+            Text("operators support recording calls .Some laws require all people on the call to consent to being , call participants are notified that the call is recorded.",style: TextStyle(fontSize: 16,color: Colors.white),)
 
           ],
         ),
