@@ -1,3 +1,4 @@
+import 'package:contact/Help/help_page.dart';
 import 'package:flutter/material.dart';
 class RecordCalls extends StatefulWidget {
   const RecordCalls({super.key});
@@ -14,6 +15,9 @@ class _RecordCallsState extends State<RecordCalls> {
       appBar: AppBar(
         backgroundColor: Color(0Xff1C1C1C),
         title: Text("Help",style: TextStyle(fontSize: 20,color: Colors.white),),
+      leading:  InkWell(
+          onTap: (){ Navigator.push(context, MaterialPageRoute(builder: (context)=>HomeScreen()));},
+          child: Icon(Icons.arrow_back,color: Colors.white,)),
       actions: [
         Icon(Icons.close,color: Colors.white,),
         SizedBox(width: 10,),
