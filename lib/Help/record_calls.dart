@@ -55,6 +55,9 @@ class _RecordCallsState extends State<RecordCalls> {
               Text(". Pixel devices must be pixel 6 and uP with Android  14 and up. ",style: TextStyle(fontSize: 16,color: Colors.white),),
               Text(". you mast have the latest version of the phone app. ",style: TextStyle(fontSize: 16,color: Colors.white),),
               Text(". You must be in a country or region where call recording is supported . Call recording is widely available, but not in all countries or regions.Features vary based on your country or region. ",style: TextStyle(fontSize: 16,color: Colors.white),),
+
+              SizedBox(height: 30,),
+              Text("Turn on 'Always record' for unknown numbers",style: TextStyle(fontSize: 20,color: Colors.white),)
             ],
           ),
 
