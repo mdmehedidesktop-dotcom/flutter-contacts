@@ -57,7 +57,13 @@ class _RecordCallsState extends State<RecordCalls> {
               Text(". You must be in a country or region where call recording is supported . Call recording is widely available, but not in all countries or regions.Features vary based on your country or region. ",style: TextStyle(fontSize: 16,color: Colors.white),),
 
               SizedBox(height: 30,),
-              Text("Turn on 'Always record' for unknown numbers",style: TextStyle(fontSize: 20,color: Colors.white),)
+              Text("Turn on 'Always record' for\nunknown numbers",style: TextStyle(fontSize: 20,color: Colors.white),),
+              Row(children: [
+                Text("Important: ",style: TextStyle(fontSize: 20,color: Colors.white),),
+                Text("it's up to you to",style: TextStyle(fontSize: 16,color: Colors.white),)
+              ],),
+              Text("follow all laws on recording phone conversations. Use call recording responsibly and turn it on only when needed . Automatic call recording and deletion aren't available in all markets.",style: TextStyle(fontSize: 16,color: Colors.white),),
+              Text("1. On your Android device , open the phone app.")
             ],
           ),
 
