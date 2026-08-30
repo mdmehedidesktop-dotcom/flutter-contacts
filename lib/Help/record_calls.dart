@@ -65,6 +65,7 @@ class _RecordCallsState extends State<RecordCalls> {
               Text("follow all laws on recording phone conversations. Use call recording responsibly and turn it on only when needed . Automatic call recording and deletion aren't available in all markets.",style: TextStyle(fontSize: 16,color: Colors.white),),
               Text("1. On your Android device , open the phone app.",style: TextStyle(fontSize: 16,color: Colors.white),),
               Text("2. At the top right,tap More options",style: TextStyle(fontSize: 16,color: Colors.white,)),
+              Text("3.Under 'Always record', turn on Numbers not in your contacts.",style: TextStyle(fontSize: 16,color: Colors.white),)
             ],
           ),
 
