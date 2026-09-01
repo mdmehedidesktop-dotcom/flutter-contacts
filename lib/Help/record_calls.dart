@@ -81,6 +81,11 @@ class _RecordCallsState extends State<RecordCalls> {
               Text(" turn on call recording. At the botton right of the contact card ,tap Edit contact Always record calls.",style: TextStyle(fontSize: 16,color: Colors.white),),
               SizedBox(height: 20,),
               Text("Start a recording from a call",style: TextStyle(fontSize: 20,color: Colors.white),),
+              SizedBox(height: 10,),
+              Row(children: [
+                Text("important :",style: TextStyle(fontSize: 18,color: Colors.white),),
+                Text("The first time that you record a",style: TextStyle(fontSize: 16,color: Colors.white),),
+              ],)
             ],
           ),
 
