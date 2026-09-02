@@ -91,6 +91,11 @@ class _RecordCallsState extends State<RecordCalls> {
               Text("To protect the privacy of all users, When you start recording, both parties are notified with a disclosure that the call is being recorded. When you stop recording ,both  parties are notified with a disclosure that the call is no longer being recorded.",style: TextStyle(fontSize: 16,color: Colors.white),),
               SizedBox(height: 14,),
               Text("For non-pixel devices:",style: TextStyle(fontSize: 18,color: Colors.white),),
+              Text("1. Open the phone app.",style: TextStyle(fontSize: 16,color: Colors.white),),
+              Text("2. Make or receive a call.",style: TextStyle(fontSize: 16,color: Colors.white),),
+              Text("3. To record your call,on the ongoing call screen, tap Record.",style: TextStyle(fontSize: 16,color: Colors.white),),
+              Text("4. To stop recording,tap Stop recording.",style: TextStyle(fontSize: 16,color: Colors.white),),
+
 
             ],
           ),
