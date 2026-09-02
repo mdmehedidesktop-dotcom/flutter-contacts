@@ -85,7 +85,8 @@ class _RecordCallsState extends State<RecordCalls> {
               Row(children: [
                 Text("important :",style: TextStyle(fontSize: 18,color: Colors.white),),
                 Text("The first time that you record a",style: TextStyle(fontSize: 16,color: Colors.white),),
-              ],)
+              ],),
+              Text("call,you'll be advised that you must comply with local laws related to recording , calls. Many jurisdictions require consent by all parties to record the call.",style: TextStyle(fontSize: 16 ,color: Colors.white),),
             ],
           ),
 
