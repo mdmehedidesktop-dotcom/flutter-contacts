@@ -87,6 +87,8 @@ class _RecordCallsState extends State<RecordCalls> {
                 Text("The first time that you record a",style: TextStyle(fontSize: 16,color: Colors.white),),
               ],),
               Text("call,you'll be advised that you must comply with local laws related to recording , calls. Many jurisdictions require consent by all parties to record the call.",style: TextStyle(fontSize: 16 ,color: Colors.white),),
+              SizedBox(height: 17,),
+              Text("To protect the privacy of all users, When you start recording, both parties are notified with a disclosure that the call is being recorded. When you stop recording ,both  parties are notified with a disclosure that the call is no longer being recorded.",style: TextStyle(fontSize: 16,color: Colors.white),),
             ],
           ),
 
