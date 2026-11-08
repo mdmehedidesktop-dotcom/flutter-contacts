@@ -95,6 +95,22 @@ class _RecordCallsState extends State<RecordCalls> {
               Text("2. Make or receive a call.",style: TextStyle(fontSize: 16,color: Colors.white),),
               Text("3. To record your call,on the ongoing call screen, tap Record.",style: TextStyle(fontSize: 16,color: Colors.white),),
               Text("4. To stop recording,tap Stop recording.",style: TextStyle(fontSize: 16,color: Colors.white),),
+              SizedBox(height: 10,),
+              Text("Bear in mind",style: TextStyle(fontSize: 22,color: Colors.white),),
+              Row(
+                children: [
+                  Row(
+                    children: [
+                      Text("Important :",style: TextStyle(fontSize: 18,color: Colors.white),),
+                    ],
+                  ),
+                  SizedBox(width: 10,),
+                  Container(
+                    child: Text("When a ",style: TextStyle(color: Colors.white),),
+                  )
+                ],
+              )
+
 
 
             ],
